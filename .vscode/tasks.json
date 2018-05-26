@@ -6,7 +6,7 @@
         {
             "label": "Run Python active file",
             "type": "shell",
-            "command": "echo Hello",
+            "command": "python ${relativeFile}",
             "group": {
                 "kind": "build",
                 "isDefault": true
